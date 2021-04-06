@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="angularApp.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <form onsubmit="event.preventDefault()" class="box">
+                        <h1>Register</h1>
+                        <p class="text-muted"> Please enter your Information!</p> 
+                        <input type="text" name="" placeholder="Email">
+                        <input type="text" name="" placeholder="Username"> 
+                        <input type="password" name="" placeholder="Password"> 
+                        <input type="text" name="" placeholder="Comfirm Password">
+                       <div class="form-inline">
+                        <div class="custom-control custom-radio" style="width: 150px;margin-left: 5em;" >
+                            <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
+                            <label class="custom-control-label"for="defaultUnchecked" style="color: white;">Men</label>
+                          </div>                          
+                        <div class="custom-control custom-radio"  style="width: 150px;" >
+                            <input type="radio" class="custom-control-input" id="defaultChecked" name="defaultExampleRadios" checked>
+                            <label class="custom-control-label" for="defaultChecked"style="color: white;">Women</label>
+                          </div>
+                       </div> 
+                        <input type="text" name="" placeholder="Age">
+                        <a class="forgot text-muted" href="#">Forgot password?</a> <input type="submit" name="" value="Register" href="./Login">
+                        <div class="col-md-12">
+                            <ul class="social-network social-circle">
+                                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="icoGoogle" title="Google +"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
